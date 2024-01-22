@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="ex1">
+            <img class="imagen" src="./assets/images/garfield.jpg" alt="imagen garfield" onclick="Border()">
+        </div>
+        <div class="ex2">
+            <div class="card">
+                <div class="card-img">
+                  <img src="./assets/images/Ahri_0.webp" alt="ahri">
+                </div>
+                <div class="card-input">
+                    <input type="text" id="ahri">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                  <img src="./assets/images/Gwen_0.webp" alt="gwen">
+                </div>
+                <div class="card-input">
+                    <input type="text" id="gwen">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                  <img src="./assets/images/Seraphine_0.webp" alt="sera">
+                </div>
+                <div class="card-input">
+                    <input type="text" id="sera">
+                </div>
+            </div>
+        </div>
+        <span id="mensaje"></span>
+        <button onclick="comprobar()"> verificar</button>
+       
+        <div class="ex3">
+            <legend>Ingrese Clave</legend>
+            <select id="dig1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select id="dig2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select id="dig3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+           
+           <button onclick="clave()"> comprobar</button>
+           <span id="clave"></span>
+        </div>
+    </div>
+    
+    <script src="./assets/js/api.js">
+    </script>
+</body>
+</html>
